@@ -585,43 +585,6 @@
                 "type": "string"
               }
             }
-          },
-          "articles": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "content": {
-                  "type": "string"
-                },
-                "source": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "category": {
-                  "type": "string"
-                },
-                "users": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
           }
         }
       },
@@ -629,12 +592,6 @@
         "properties": {
           "name": {
             "type": "string"
-          },
-          "articles": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
           }
         }
       }
